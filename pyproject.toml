@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "whatsapp-chat-analysis"
+version = "0.1.0"
+description = ""
+authors = ["nehanims <neha.h.nims@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.3"
+jupyter = "^1.1.1"
+emoji = "^2.13.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
